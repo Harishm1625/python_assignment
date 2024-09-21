@@ -10,6 +10,6 @@ def mutio():
 
     new_str=''.join(lis)
 
-    print(new_str)
+    return new_str
 
 mutio()
