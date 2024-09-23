@@ -21,3 +21,5 @@ def calender_module(n):
     res=datetime.strftime(str_format,"%A")
     print(res)
     return res
+# sample
+
