@@ -18,3 +18,5 @@ def fnd_avg():
 
 l=fnd_avg()
 print(l)
+
+
