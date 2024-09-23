@@ -13,3 +13,6 @@ def secondlrg ():
 
 v=secondlrg()
 print(v)## for print the output ## return kudutha output la show aagathu so vera veriable la store panni print panalam
+
+
+# sample
