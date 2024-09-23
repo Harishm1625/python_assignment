@@ -1,21 +1,18 @@
-
 import re
 
+
 def validation():
+    n = int(input("Enter number of :"))
 
-    n=int(input("Enter number of mail : "))
+    email = [input("Enter : ") for _ in range(n)]
 
-    email=[input("Enter : ") for _ in range(n)]
+    valid_email = []
 
-    valid_mail=[]
-
-    for i in email:
+    for mail in email:
         pattern = r'^[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.[a-zA-Z]+$'
 
-        if re.match(pattern,i):
-            valid_mail.append(i)
+        if re.match(pattern, mail):
+            valid_email.append(mail)
 
-    print(valid_mail)
-
-
-validation()
+        return valid_email
+    #sample
